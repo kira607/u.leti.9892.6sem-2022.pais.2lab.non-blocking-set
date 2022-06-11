@@ -1,0 +1,20 @@
+{
+    "template": "full_template",
+    "department": "ВТ",
+    "label": "ОТЧЁТ\\\\ЛАБОРАТОРНАЯ РАБОТА",
+    "num": 2,
+    "discipline": "Параллельные алгоритмы и системы",
+    "theme": "Линейные разделяемые структуры данных",
+    "student": "",
+    "partners": [],
+    "teacher": "Пазников А.А.",
+    "year": "2022",
+    "chapters": {
+        "goal": "Цель работы",
+        "task": "Задание",
+        "solution": "Выполнение задания",
+        "conclusion": "Выводы",
+        "listing": "Приложение А -- Листинг"
+    },
+    "newpage": false
+}
