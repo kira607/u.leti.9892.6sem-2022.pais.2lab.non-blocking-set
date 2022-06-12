@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#define DBG
+
 #define LOG(msg) {std::cout << msg;} while(0)
 #define LOGLN(msg) {LOG(msg << '\n');} while(0)
 

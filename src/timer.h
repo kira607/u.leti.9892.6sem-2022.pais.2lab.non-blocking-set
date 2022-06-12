@@ -1,7 +1,8 @@
-#ifndef INC_2LAB_PAS_3_2_TIMER_H
-#define INC_2LAB_PAS_3_2_TIMER_H
+#ifndef INC_TIMER_H
+#define INC_TIMER_H
 
 #include <chrono>
+
 
 template<typename Clock=std::chrono::high_resolution_clock>
 class Timer {
@@ -24,4 +25,4 @@ int Timer<Clock>::elapsed_ms()
     return std::chrono::duration_cast<std::chrono::milliseconds>(Clock::now() - _start_time).count();
 }
 
-#endif //INC_2LAB_PAS_3_2_TIMER_H
+#endif //INC_TIMER_H
